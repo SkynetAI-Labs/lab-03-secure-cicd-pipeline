@@ -212,3 +212,9 @@ Verification enforced the expected repository, the exact ci.yml workflow on main
 - Gitleaks is a separate required PR check. The publishing job directly waits on tests, Bandit and container checks, rather than the separate Gitleaks workflow.
 - Base images, action pins and scanner versions need manual maintenance. No automatic updater is configured.
 - Direct action SHA pins do not imply all transitive tools are checksum-pinned. Bandit's pip dependencies are not hash-locked.
+
+
+## Repository audit — 24 October 2026
+
+See the [dated security audit and prioritised recommendations](SECURITY_AUDIT.md) for the reviewed source commit, verification results, open findings and evidence limitations.
+
